@@ -1,0 +1,146 @@
+{
+   "Format": "2.1.0",
+   "Changes": [
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert",
+         "FromFile": "assets/pinkShaft.png",
+         "ToArea": { "X": 224, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert_dangerous",
+         "FromFile": "assets/pinkShaft.png",
+         "ToArea": { "X": 224, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert_dark",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert_dark",
+         "FromFile": "assets/pinkShaft.png",
+         "ToArea": { "X": 224, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert_dark_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_desert_dark_dangerous",
+         "FromFile": "assets/pinkShaft.png",
+         "ToArea": { "X": 224, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/volcano_dungeon",
+         "FromFile": "assets/pinkShaft.png",
+         "ToArea": { "X": 240, "Y": 352, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_dark",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_dark_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_dino",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_frost",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_frost_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_frost_dark",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_frost_dark_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_lava",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_lava_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_lava_dark",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_lava_dark_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_quarryshaft",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_slime",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      },      {
+         "Action": "EditImage",
+         "Target": "Maps/Mines/mine_slime_dangerous",
+         "FromFile": "assets/pinkLadder.png",
+         "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
+      }
+   ]
+}
