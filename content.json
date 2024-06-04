@@ -1,5 +1,52 @@
 {
    "Format": "2.1.0",
+   "ConfigSchema":{
+     "Mines":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Mines"
+	 },
+	 "Mines_Dark":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Mines"	   
+	 },
+	 "Mines_Frost":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Mines"
+	 },
+	 "Mines_Lava":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Mines"
+	 },
+	 "Mines_Slime":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Mines"
+	 },
+	 "Quarry_Dungeon":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Quarry Dungeon"
+	 },
+	 "Skull_Cavern":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Skull Cavern"
+	 },
+	 "Skull_Cavern_Dark":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Skull Cavern"
+	 },
+	 "Skull_Cavern_Dino":{
+	   "AllowValues": "Cyan, Pink, Green, Orange, Vanilla",
+	   "Default": "Pink",
+	   "Section": "Skull Cavern"
+	 }
+   },
    "Changes": [
       {
          "Action": "EditImage",
@@ -58,73 +105,73 @@
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
-      },
+	  },
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_dark",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Dark}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_dark_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Dark}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_dino",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Skull_Cavern_Dino}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_frost",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Frost}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_frost_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Frost}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_frost_dark",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Frost}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },
       {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_frost_dark_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Frost}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_lava",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Lava}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_lava_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Lava}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_lava_dark",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Lava}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_lava_dark_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Lava}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
@@ -134,12 +181,12 @@
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_slime",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Slime}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       },      {
          "Action": "EditImage",
          "Target": "Maps/Mines/mine_slime_dangerous",
-         "FromFile": "assets/pinkLadder.png",
+         "FromFile": "assets/{{Mines_Slime}}Ladder.png",
          "ToArea": { "X": 208, "Y": 160, "Width": 16, "Height": 16 }
       }
    ]

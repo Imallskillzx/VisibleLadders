@@ -1,8 +1,8 @@
 {
     "Name": "VisibleLadders",
     "Author": "Skillzy",
-    "Version": "0.1.0",
-    "Description": "Hopefully makes ladders more visible for people who play zoomed out",
+    "Version": "1.0.0",
+    "Description": "Makes ladders / mineshafts more visible.",
     "UniqueID": "Skillzy.VisibleLadders",
     "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
     "ContentPackFor": {
